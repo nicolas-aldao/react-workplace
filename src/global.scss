@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+}
+#root {
+  margin: 0 3rem 3rem 3rem;
+}
+.layout {
+  position: relative;
+}
+// Desktop
+@media (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
+// Tablet
+@media (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+// Mobile
+@media (max-width: 450px) {
+  html {
+    font-size: 19px;
+  }
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #acd9b2;
+  --sm: 1rem;
+  --md: 1.4rem;
+  --lg: 1.6rem;
+}
+*:focus {
+  outline: none;
+}
